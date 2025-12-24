@@ -32,6 +32,10 @@ app.post("/api/ask", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("OK - server is running");
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
 });
