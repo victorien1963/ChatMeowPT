@@ -184,7 +184,7 @@ export default function App() {
             </button>
           </div>
 
-                    {/* 預設問題 chips */}
+          {/* 預設問題 chips */}
           <div className="chip-row">
             {QUESTIONS.map((q) => (
               <button
