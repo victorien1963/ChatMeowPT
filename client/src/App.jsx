@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ChatPanel from "./components/ChatPanel.jsx";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = import.meta.env.VITE_API_BASE || "";
 
 const QUESTIONS = [
   { id: "intro", label: "自我介紹" },
